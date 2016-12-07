@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">spotify-tools</string>
+    <string name="app_opened">Listening for Bluetooth Broadcasting!</string>
+    <string name="close_app">By the way: you can close this app now :)</string>
+
+    <!-- Preferences  -->
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="bluetooth_enable_device_name_key">enable_bluetooth_device_name_key</string>
+    <string name="bluetooth_enable_device_name">Enable device name</string>
+    <string name="bluetooth_device_name">Device name</string>
+    <string name="bluetooth_device_name_key">bluetooth_device_name</string>
+
+    <string name="spotify_settings">Spotify</string>
+    <string name="open_spotify_key">open_spotify</string>
+    <string name="open_spotify">Open Spotify </string>
+    <string name="open_spotify_summary">Open Spotify after bluetooth connects to the device</string>
+
+    <string name="general_settings">General</string>
+    <string name="enable_key">enable_key</string>
+    <string name="enable">Enable feature</string>
+    <string name="enable_summary">Enable functionality to handle bluetooth connection and spotify communication</string>
+    <!-- Preferences -->
+</resources>

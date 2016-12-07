@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_general_settings"
+        android:title="@string/general_settings">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/enable_key"
+            android:summary="@string/enable_summary"
+            android:title="@string/enable" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_bluetooth_settings"
+        android:title="@string/bluetooth_settings">
+        <EditTextPreference
+            android:defaultValue="default_device"
+            android:key="@string/bluetooth_device_name_key"
+            android:title="@string/bluetooth_device_name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_spotify_settings"
+        android:title="@string/spotify_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/open_spotify_key"
+            android:summary="@string/open_spotify_summary"
+            android:title="@string/open_spotify" />
+    </PreferenceCategory>
+</PreferenceScreen>
